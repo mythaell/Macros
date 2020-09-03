@@ -37,9 +37,6 @@ new Dialog({
                 let itemName = html.find("#selectedOption")[0].value; // <--- Change this to the *exact* item name (capitals count!)
                 let sendToChat = true; // <--- Change to 'true' or 'false' to display a chat message about equipping
                 let displayIcon = true; // <--- Change to 'true' or 'false' to display an effect icon when equipped
-
-        //				const effectIconPath = 'modules/plutonium/media/icon/spell/phb-bless.jpg';
-
                 let toggleResult = false;
 
                 if (!actor) {
